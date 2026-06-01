@@ -13,6 +13,10 @@ Mục tiêu của dự án:
 - [ ] Driver cơ bản (bàn phím, màn hình)
 - [ ] Shell tối giản
 
+## Tạm Thời
+- Dùng Iced với tiny skia để tập làm ui, tiny skia dùng sau này.
+- ...
+
 ## Microkernel và ý tưởng “3 bản check lẫn nhau”
 Microkernel thuần túy: chỉ giữ các chức năng tối thiểu (IPC, scheduling, memory management) trong kernel; phần còn lại chạy ở user-space.
 Ý tưởng 3 bản kiểm tra lẫn nhau: về lý thuyết, có thể triển khai nhiều kernel instance hoặc domain song song để giám sát nhau, nhưng thực tế hiếm OS nào làm vậy vì chi phí hiệu năng và độ phức tạp.
